@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;;
+}
+
+.app .title {
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.app .footer {
+  align-self: flex-start
+}
